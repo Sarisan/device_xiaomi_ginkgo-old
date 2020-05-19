@@ -1,14 +1,14 @@
 [
 	{
-		"repository": "trinket-devs/vendor_xiaomi_ginkgo",
+		"repository": "Sarisan/vendor_xiaomi_ginkgo",
 		"target_path": "vendor/xiaomi/ginkgo",
-		"branch": "10.0",
+		"branch": "havoc",
 		"remote": "github"
 	},
 	{
 		"repository": "trinket-devs/kernel_xiaomi_ginkgo",
 		"target_path": "kernel/xiaomi/ginkgo",
-		"branch": "Q",
+		"branch": "10.0",
 		"remote": "github"
 	},
 	{
