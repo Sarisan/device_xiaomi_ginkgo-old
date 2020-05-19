@@ -22,6 +22,9 @@ $(call inherit-product, vendor/gapps/config.mk)
 
 TARGET_GAPPS_ARCH := arm64
 
+# Inherit from custom vendor
+$(call inherit-product, vendor/ANXCamera/config.mk)
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := havoc_ginkgo
 PRODUCT_DEVICE := ginkgo

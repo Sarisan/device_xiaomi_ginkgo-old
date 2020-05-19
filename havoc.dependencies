@@ -10,5 +10,11 @@
 		"target_path": "kernel/xiaomi/ginkgo",
 		"branch": "Q",
 		"remote": "github"
+	},
+	{
+		"repository": "trinket-devs/vendor_ANXCamera",
+		"target_path": "vendor/ANXCamera",
+		"branch": "master",
+		"remote": "github"
 	}
 ]
