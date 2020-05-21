@@ -8,13 +8,13 @@
 	{
 		"repository": "trinket-devs/kernel_xiaomi_ginkgo",
 		"target_path": "kernel/xiaomi/ginkgo",
-		"branch": "10.0",
+		"branch": "Q",
 		"remote": "github"
 	},
 	{
-		"repository": "trinket-devs/vendor_ANXCamera",
-		"target_path": "vendor/ANXCamera",
-		"branch": "master",
+		"repository": "trinket-devs/hardware_qcom-caf_sm8150_display",
+		"target_path": "hardware/qcom-caf/sm8150/display",
+		"branch": "ten",
 		"remote": "github"
 	}
 ]
