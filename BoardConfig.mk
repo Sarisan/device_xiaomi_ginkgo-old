@@ -23,8 +23,6 @@ TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := generic
 TARGET_2ND_CPU_VARIANT_RUNTIME := cortex-a76
 
-TARGET_USES_64_BIT_BINDER := true
-
 BUILD_BROKEN_DUP_RULES := true
 
 MSMSTEPPE := trinket
@@ -125,7 +123,6 @@ TARGET_USES_HWC2 := true
 TARGET_USES_ION := true
 
 # HIDL
-DEVICE_FRAMEWORK_MANIFEST_FILE := $(DEVICE_PATH)/framework_manifest.xml
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
 DEVICE_MATRIX_FILE := $(DEVICE_PATH)/compatibility_matrix.xml
 
