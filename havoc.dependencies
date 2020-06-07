@@ -6,9 +6,9 @@
 		"remote": "github"
 	},
 	{
-		"repository": "trinket-devs/kernel_xiaomi_ginkgo",
+		"repository": "celtare21/kernel_xiaomi_ginkgo",
 		"target_path": "kernel/xiaomi/ginkgo",
-		"branch": "Q",
+		"branch": "perf",
 		"remote": "github"
 	},
 	{
