@@ -13,17 +13,28 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 # Inherit from ginkgo device
 $(call inherit-product, device/xiaomi/ginkgo/device.mk)
 
-# ANXCamera
-$(call inherit-product, vendor/ANXCamera/config.mk)
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_INCLUDE_WIFI_EXT := true
+TARGET_INCLUDE_STOCK_ARCORE := true
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# ANXCamera
+$(call inherit-product, vendor/aeonax/ANXCamera/anx-vendor.mk)
+
+# Inherit some common Havoc stuff.
+$(call inherit-product, vendor/havoc/config/common_full_phone.mk)
+$(call inherit-product, vendor/gapps/config.mk)
+
+TARGET_GAPPS_ARCH := arm64
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_ginkgo
+PRODUCT_NAME := havoc_ginkgo
 PRODUCT_DEVICE := ginkgo
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 8
 PRODUCT_MANUFACTURER := Xiaomi
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRODUCT_NAME="ginkgo" \
+    TARGET_DEVICE="ginkgo"
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
