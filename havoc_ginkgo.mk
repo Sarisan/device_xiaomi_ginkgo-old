@@ -22,8 +22,9 @@ $(call inherit-product, vendor/aeonax/ANXCamera/anx-vendor.mk)
 
 # Inherit some common Havoc stuff.
 $(call inherit-product, vendor/havoc/config/common_full_phone.mk)
-$(call inherit-product, vendor/gapps/config.mk)
 
+# GApps
+WITH_GAPPS := true
 TARGET_GAPPS_ARCH := arm64
 
 # Device identifier. This must come after all inclusions.
