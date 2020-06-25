@@ -12,10 +12,10 @@
 		"remote": "github"
 	},
 	{
-		"repository": "trinket-devs/vendor_aeonax_ANXCamera",
+		"repository": "Sarisan/vendor_aeonax_ANXCamera",
 		"target_path": "vendor/aeonax/ANXCamera",
 		"branch": "master",
-		"remote": "github"
+		"remote": "gitlab"
 	},
 	{
 		"repository": "trinket-devs/hardware_qcom-caf_sm8150_display",
