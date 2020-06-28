@@ -17,8 +17,8 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_WIFI_EXT := true
 TARGET_INCLUDE_STOCK_ARCORE := true
 
-# ANXCamera
-$(call inherit-product, vendor/aeonax/ANXCamera/anx-vendor.mk)
+# MiuiCamera
+$(call inherit-product, vendor/miuicamera/common/common-vendor.mk)
 
 # Inherit some common Havoc stuff.
 $(call inherit-product, vendor/havoc/config/common_full_phone.mk)

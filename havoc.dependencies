@@ -12,10 +12,10 @@
 		"remote": "github"
 	},
 	{
-		"repository": "Sarisan/vendor_aeonax_ANXCamera",
-		"target_path": "vendor/aeonax/ANXCamera",
-		"branch": "master",
-		"remote": "gitlab"
+		"repository": "ghostrider-reborn/android_vendor_miuicamera",
+		"target_path": "vendor/miuicamera",
+		"branch": "quartz",
+		"remote": "github"
 	},
 	{
 		"repository": "trinket-devs/hardware_qcom-caf_sm8150_display",

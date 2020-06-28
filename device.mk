@@ -140,9 +140,6 @@ PRODUCT_PACKAGES += \
     libdng_sdk.vendor \
     Snap
 
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/releasetools/anx_config.sh:install/bin/anx_config.sh
-
 # Context Hub
 PRODUCT_PACKAGES += \
     android.hardware.contexthub@1.0-impl.generic \
