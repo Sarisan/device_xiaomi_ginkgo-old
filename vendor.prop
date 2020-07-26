@@ -139,6 +139,9 @@ vendor.gralloc.disable_ubwc=0
 # Keystore
 ro.hardware.keystore_desede=true
 
+# LCD Density
+ro.sf.lcd_density=440
+
 # Media
 audio.offload.video=true
 debug.stagefright.ccodec=1
