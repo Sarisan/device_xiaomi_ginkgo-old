@@ -16,11 +16,13 @@ $(call inherit-product, device/xiaomi/ginkgo/device.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # GApps
-WITH_GAPPS := true
+#WITH_GAPPS := true
 TARGET_GAPPS_ARCH := arm64
 
 # Inherit some common Havoc stuff.
 $(call inherit-product, vendor/havoc/config/common_full_phone.mk)
+
+HAVOC_BUILD_TYPE=Official
 
 # MiuiCamera
 $(call inherit-product, vendor/miuicamera/common/common-vendor.mk)
